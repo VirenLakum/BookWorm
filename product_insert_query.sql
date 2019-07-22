@@ -1,0 +1,3 @@
+﻿insert into Products (type_id, language_id, category_id, title, price, selling_price, special_price, special_price_from_date, special_price_to_date, days_of_sale,
+						short_description, long_description, author, release_date, is_rentable, is_in_library, rent_amount, min_rent_days, publisher, [ image_path])
+			values (4, 2, 3, 'Two States', 400, 250, 200, GETDATE(), GETDATE(), 4, 'A Love Story', 'A long love story', 'Chetan Bhagat', GETDATE(), 1, 0, 5, 5, 'Penguin India', 'image_.jpg');
